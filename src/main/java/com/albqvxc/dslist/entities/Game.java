@@ -101,6 +101,22 @@ public class Game {
         this.imgUrl = imgUrl;
     }
 
+    public String getShortDescription() {
+        return shortDescription;
+    }
+
+    public void setShortDescription(String shortDescription) {
+        this.shortDescription = shortDescription;
+    }
+
+    public String getLongDescription() {
+        return longDescription;
+    }
+
+    public void setLongDescription(String longDescription) {
+        this.longDescription = longDescription;
+    }
+
     public boolean equals(Object obj) {
         if(this == obj) return true;
         if(obj == null) return false;
