@@ -1,10 +1,13 @@
 package com.albqvxc.dslist.entities;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistance.GenerationType;
-import jakarta.persistence.Id
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.persistence.Column;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+
+import java.util.Objects;
 
 @Entity
 @Table(name = "tb_game")
